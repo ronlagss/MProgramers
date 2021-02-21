@@ -91,7 +91,7 @@ export default function Home() {
                         />
 
 
-                        <button  name = "redirect" href="https://simple-form-ronlagss.vercel.app/extra_info"  className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg"
+                        <button  name = "redirect" type = "button"  className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg"
                         onclick="https://simple-form-ronlagss.vercel.app/extra_info" 
                         >
                             Create Account
