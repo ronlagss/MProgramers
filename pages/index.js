@@ -90,9 +90,14 @@ export default function Home() {
                         />
 
 
-                        <button id = "create" className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg">
+                        <button  onClick="history.go(0)" className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg">
                             Create Account
                         </button>
+                        <script type="text/javascript">
+                            document.getElementById("create").onclick = function () {
+                            location.href = "https://simple-form-ronlagss.vercel.app/extra_info"
+                                };
+                        </script>  
 
                         <button
                             onClick={login}
@@ -100,11 +105,7 @@ export default function Home() {
                             className="w-full bg-blue-700 mt-8 mb-4 text-white p-3 rounded-lg font-semibold text-lg">Sign
                             in
                         </button>
-                        <script type="text/javascript">
-                            document.getElementById("create").onclick = function () {
-                            location.href = "https://simple-form-ronlagss.vercel.app/extra_info"
-                                };
-                        </script>  
+                    
                                           
                     </form>
                     <p className="text-center text-sm my-4">
