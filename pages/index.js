@@ -12,6 +12,11 @@ export default function Home() {
         email: '',
         password: ''
     });
+    function redirectTo(sUrl) {
+        window.location = sUrl
+        }
+
+
     const changeValue = (e) => {
         setState(state => ({
             ...state,
@@ -91,8 +96,9 @@ export default function Home() {
                         />
 
 
-                        <button  name = "redirect" type = "button"  className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg"
-                        onclick="https://simple-form-ronlagss.vercel.app/extra_info" 
+                        <button 
+                        onClick = "redirectTo('https://simple-form-ronlagss.vercel.app/extra_info')" 
+                        className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg"
                         >
                             Create Account
                         </button>
