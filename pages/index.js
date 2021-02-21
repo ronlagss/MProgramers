@@ -85,12 +85,13 @@ export default function Home() {
                             name="password"
                             onChange={changeValue}
                             type="password"
-                            placeholder="👀 Password, longer than 6 charcters"
+                            placeholder="👀 Password"
                             className="mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-cyan-500"
+                        
                         />
 
 
-                        <button  name = "redirect" value="https://simple-form-ronlagss.vercel.app/extra_info"  className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg"
+                        <button  name = "redirect" href="https://simple-form-ronlagss.vercel.app/extra_info"  className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg"
                         onClick="https://simple-form-ronlagss.vercel.app/extra_info" 
                         >
                             Create Account
