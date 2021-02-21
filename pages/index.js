@@ -12,6 +12,7 @@ export default function Home() {
         email: '',
         password: ''
     });
+    
     function redirectTo(sUrl) {
         window.location = sUrl
         }
@@ -97,7 +98,7 @@ export default function Home() {
 
 
                         <button 
-                        onClick = "redirectTo('https://simple-form-ronlagss.vercel.app/extra_info')" 
+                        onClick = {redirectTo('https://simple-form-ronlagss.vercel.app/extra_info')}
                         className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg"
                         >
                             Create Account
