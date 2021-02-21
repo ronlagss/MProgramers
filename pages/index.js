@@ -98,7 +98,6 @@ export default function Home() {
 
 
                         <button 
-                        onClick = {redirectTo('extra_info.js')}
                         className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg"
                         >
                             Create Account
