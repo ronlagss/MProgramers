@@ -90,14 +90,9 @@ export default function Home() {
                         />
 
 
-                        <button  onClick="history.go(0)" className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg">
+                        <button  name = "redirect" value="https://simple-form-ronlagss.vercel.app/extra_info"  className="w-full bg-pink-600 text-white p-3 rounded-lg font-semibold text-lg">
                             Create Account
                         </button>
-                        <script type="text/javascript">
-                            document.getElementById("create").onclick = function () {
-                            location.href = "https://simple-form-ronlagss.vercel.app/extra_info"
-                                };
-                        </script>  
 
                         <button
                             onClick={login}
